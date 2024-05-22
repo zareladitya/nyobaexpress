@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Keraton BE",
+        "amount": 2,
+        "image": "../images/frame-2.png",
+        "id": "keraton-be",
+        "price" : 20000,
+        "guide" : "Ghazi Maung"
+    },
+    {
+        "name": "Pangeran Aldi",
+        "amount": 1,
+        "image": "../images/frame-2.png",
+        "id": "pangeran-aldi",
+        "price" : 40000,
+        "guide" : "Lutfi Resing"
+
+
+    },
+    {
+        "name": "Museum Pusaka",
+        "amount": 1,
+        "image": "../images/frame-2.png",
+        "id": "museum-pusaka",
+        "price" : 80000,
+        "guide" : "Rhaihan Bakso Malang"
+
+
+    },
+    {
+        "name": "Keraton Pangeran",
+        "amount": 2,
+        "image": "../images/frame-2.png",
+        "id": "keraton-pangeran",
+        "price" : 50000,
+        "guide" : ""
+
+
+    },
+    {
+        "name": "Museum",
+        "amount": 1,
+        "image": "../images/frame-2.png",
+        "id": "museum",
+        "price" : 100000,
+        "guide" : "Aldi Banteng"
+
+
+    }
+]

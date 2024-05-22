@@ -1,0 +1,56 @@
+<!-- tambah.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tambah Data</title>
+    <!-- Bootstrap CSS -->
+    <style>
+        /* Custom CSS (opsional) */
+        .form-container {
+            margin-top: 50px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <h1 class="text-center mb-4">Tambah Data Siswa</h1>
+                <div class="form-container">
+                    <form action="/tambah" method="POST" class="d-flex flex-column gap-3">
+                        <div class="form-group">
+                            <label for="nis">NIS:</label>
+                            <input type="text" class="form-control bg-white text-black" id="nis" name="nis" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="nama">Nama:</label>
+                            <input type="text" class="form-control bg-white text-black" id="nama" name="nama" required>
+                        </div>
+                        <div class="">
+                            <label>Jenis Kelamin:</label>
+                            <div class="">
+                                <input class="" type="radio" name="jenis_kelamin" id="laki-laki" value="L" required>
+                                <label class=" " for="laki-laki">Laki-laki</label>
+                            </div>
+                            <div class="">
+                                <input class="" type="radio" name="jenis_kelamin" id="perempuan" value="P" required>
+                                <label class="" for="perempuan">Perempuan</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="alamat">Alamat:</label>
+                            <input type="text" class="form-control bg-white text-black" id="alamat" name="alamat" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Simpan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS (opsional) -->
+</body>
+</html>

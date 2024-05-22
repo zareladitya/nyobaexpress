@@ -1,0 +1,37 @@
+
+<div class="container-fluid ">
+    <a class="btn btn-primary" href="/tambah">Tambah</a>
+<table class="table table-light">
+    <thead>
+        <th>Nis</th>
+        <th>Nama</th>
+        <th>Jenis Kelamin</th>
+        <th>Alamat</th>
+        <th>Action</th>
+    </thead>
+    <tbody>
+    <% siswa.forEach(siswa => { %>    
+    <tr>
+        <td>
+            <%= siswa.nis %>
+        </td>
+        <td>
+            <%= siswa.nama %>
+        </td>
+        <td>
+            <%= siswa.jenis_kelamin %>
+        </td>
+        <td>
+            <%= siswa.alamat %>
+        </td>
+        <td>
+            <a href="/delete/<%= siswa.nis %>" class="btn btn-danger badge rounded-pill"><i class="bi bi-trash"></i></a>
+            <a href="/siswa/<%= siswa.nis %>" class="btn btn-success badge rounded-pill"><i class="bi bi-info-circle"></i> Detail</a>
+        </td>
+        
+    </tr>
+    <% }) %>
+    </tbody>
+</table>
+</div>
+<%- include('layouts/footer') %>
